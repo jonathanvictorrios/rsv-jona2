@@ -135,9 +135,16 @@ export default {
       while (i < cantEventos && encontro==false) {
         if(this.eventos[i].idevento==this.vehiculoSeleccionado.idevento){
           encontro=true;
-          this.eventoSelecionado=this.eventos[i].descripcion;
+          // this.eventoSelecionado=this.eventos[i].descripcion;
+        }else{
+          i ++;
         }
-        i ++;
+
+      }
+      if(encontro==true){
+        this.eventoSelecionado=this.eventos[i].descripcion;
+      }else{
+        this.eventoSelecionado="Evento no categorizado";
       }
       console.log("selecciono algo");
     }

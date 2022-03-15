@@ -1,5 +1,5 @@
 <template>
-<div class="bg-dark">
+<div class="bg-dark mb-0">
   <div class="container text-white">
     <div class="row">
       <div class="col text-end mt-2">

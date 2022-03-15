@@ -1,6 +1,6 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/rsv-logo.png">
+  <div id="app" class="mt-0">
+    <HeaderRsv></HeaderRsv>
     <MapVehiculos></MapVehiculos>
     <hr>
     <FooterRsv></FooterRsv>
@@ -10,13 +10,15 @@
 <script>
 import FooterRsv from './components/FooterRsv.vue'
 import MapVehiculos from './components/MapVehiculos.vue'
+import HeaderRsv from './components/HeaderRsv.vue'
 
 
 export default {
   name: 'App',
   components: {
     MapVehiculos,
-    FooterRsv
+    FooterRsv,
+    HeaderRsv
   }
 }
 </script>

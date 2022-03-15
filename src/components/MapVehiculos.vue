@@ -1,7 +1,7 @@
 <template>
 <div>
   <div class="container">
-    <div class="row mb-4">
+    <div class="row mb-4" >
       <div class="col">
         <h5 class="text-start">
           Seleccione vehiculo
